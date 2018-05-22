@@ -1,6 +1,6 @@
 {% set name = "trollsift" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "4f67522224714e4c1ca612c82c5a1600c55fef879efbe1f30bcbe8f79e442ed0" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "b9ae4184b3eafd9e879d03d24e889ea442a097f37d236587d3b515dbfa23b58b" %}
 
 package:
   name: '{{ name|lower }}'
@@ -30,9 +30,9 @@ test:
 
 about:
   home: https://github.com/pytroll/trollsift
-  license: GPLv3+
+  license: GPL-3.0
   license_family: GPL3
-  license_file: ''
+  license_file: LICENSE.txt
   summary: String parser/formatter for PyTroll packages
   description: Filtering modules used in PyTroll packages
   doc_url: http://trollsift.readthedocs.io
