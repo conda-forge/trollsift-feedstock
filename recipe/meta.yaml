@@ -1,6 +1,6 @@
 {% set name = "trollsift" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "7f14c32af0631d727105a2b1e117b87128c635b61202f90d9f230ee984c253f1" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "5f9e058050773ce9152a119578a0dea1ead0a1a8cb08d2661a0f5095a74cc174" %}
 
 package:
   name: '{{ name|lower }}'
