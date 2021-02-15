@@ -1,16 +1,16 @@
 {% set name = "trollsift" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 61b195b886c0e03037680840710add2e816705e1d2641e9524062d5b39436fb7
+  sha256: 99e049b6c98620307e9f15ed98b0aee062e947c129139baf63a14587b3a7936f
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
