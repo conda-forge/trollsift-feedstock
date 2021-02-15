@@ -3,7 +3,7 @@ About trollsift
 
 Home: https://github.com/pytroll/trollsift
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trollsift-feedstock/blob/master/LICENSE.txt)
 
