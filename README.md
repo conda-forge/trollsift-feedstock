@@ -5,9 +5,13 @@ Home: https://github.com/pytroll/trollsift
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trollsift-feedstock/blob/master/LICENSE.txt)
 
 Summary: String parser/formatter for PyTroll packages
+
+Development: https://github.com/pytroll/trollsift
+
+Documentation: http://trollsift.readthedocs.io
 
 Filtering modules used in PyTroll packages
 
