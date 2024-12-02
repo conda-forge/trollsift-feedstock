@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python 3.6
+    - python 3.9
     - pip
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.6
+    - python >=3.9
     - six
 
 test:
