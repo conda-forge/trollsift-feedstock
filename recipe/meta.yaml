@@ -22,7 +22,6 @@ requirements:
     - hatch-vcs
   run:
     - python >={{ python_min }}
-    - six
 
 test:
   requires:
