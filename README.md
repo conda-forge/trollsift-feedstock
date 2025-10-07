@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trollsift-feeds
 
 Home: https://github.com/pytroll/trollsift
 
-Package license: GPL-3.0-or-later
+Package license: Apache-2.0
 
 Summary: String parser/formatter for PyTroll packages
 
