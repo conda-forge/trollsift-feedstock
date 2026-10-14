@@ -1,13 +1,13 @@
 {% set name = "trollsift" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8712200820ddae17ba55b1b57accccf630a4c149bbf93262d233c8dfd2861f50
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 3d7e8572a28a3ae72cdaad4eef3efa0b5b3ca255dae84f324767bf256403858a
 
 build:
   number: 0
